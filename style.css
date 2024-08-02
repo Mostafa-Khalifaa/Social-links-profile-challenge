@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shochial-links {
+    background-color: hsl(0, 0%, 12%);
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+    /* Center text and inline elements */
+    border-radius: 10px;
+    /* Optional: Add some rounding to the container */
+}
+
+.avatar {
+    border-radius: 50%;
+    max-width: 100px;
+    /* Set a max-width to control the size of the image */
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.name-avatar{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.location{
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+.job{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.buttuns {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Space between buttons */
+    margin-top: 20px;
+    /* Add some space between the text and buttons */
+}
+
+.links {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.links:hover {
+    background-color: hsl(75, 94%, 57%);
+}
